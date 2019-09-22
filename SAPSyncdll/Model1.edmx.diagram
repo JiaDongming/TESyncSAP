@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="510cc2602ad5415b85d4ca859aa7617b" Name="Diagram1">
+        <EntityTypeShape EntityType="ABZG_DSModel.Bug" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.BugHTML" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.BugSelectionInfo" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.BugSelectionInfoText" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.BugTypes" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.CustomerFieldListValue" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.CustomerFieldTrackExt" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.CustomerFieldTrackExt2" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.IssueTimeTracking" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.LogIn" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.PriorityTypes" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.SpaceLink" Width="1.5" PointX="6.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.SubProject" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.SubProjectTree" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABZG_DSModel.ProgressStatusTypes" Width="1.5" PointX="5.375" PointY="14.75" />
+        <EntityTypeShape EntityType="ABZG_DSModel.SubProjectOwners" Width="1.5" PointX="7.375" PointY="14.75" />
+        <EntityTypeShape EntityType="ABZG_DSModel.TimeSheet" Width="1.5" PointX="15.375" PointY="3.75" />
+        <EntityTypeShape EntityType="ABZG_DSModel.TimeSheetEntry" Width="1.5" PointX="15.375" PointY="8.75" />
+        <EntityTypeShape EntityType="ABZG_DSModel.TimeSheetHour" Width="1.5" PointX="15.375" PointY="13.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

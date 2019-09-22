@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPSyncdll", "SAPSyncdll\SAPSyncdll.csproj", "{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPAPI", "SAPAPI\SAPAPI.csproj", "{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPConsole", "SAPConsole\SAPConsole.csproj", "{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Debug|x86.Build.0 = Debug|Any CPU
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Release|x86.ActiveCfg = Release|Any CPU
+		{6274FFCF-DC07-4D66-B753-D01FA0DE11F6}.Release|x86.Build.0 = Release|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Debug|x86.Build.0 = Debug|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DB71A2E-A7EC-4831-B509-EEC0EC425E72}.Release|x86.Build.0 = Release|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA0B0BBE-CF47-4605-ACA1-C596AD0138C8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB6000A8-7F67-49B0-BFC7-4892B8FCF80E}
+	EndGlobalSection
+EndGlobal
