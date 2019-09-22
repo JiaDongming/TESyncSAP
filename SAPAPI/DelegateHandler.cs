@@ -8,7 +8,7 @@ using System.Text;
 
 namespace SAPSyncAPI
 {
-    //定义委托
+    //定义委托 所--
  public delegate List<ReturnMessage> DelegateSyncSAP(ProjectBinder projectBinder);
 
     
