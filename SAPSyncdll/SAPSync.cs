@@ -89,8 +89,8 @@ namespace SAPSyncdll
                     //projectTable.CurrentRow.SetValue("POSID", "B1909007");//传入项目编码
                     projectTable.CurrentRow.SetValue("POST1", project.ProjectName);//传入项目名称
                     projectTable.CurrentRow.SetValue("PROFL", project.ProjectTypeID);//传入项目编码
-                    // projectTable.CurrentRow.SetValue("VERNR", project.ProjectManager);//传入项目经理
-                    projectTable.CurrentRow.SetValue("VERNR", 00000002);//传入项目经理
+                    projectTable.CurrentRow.SetValue("VERNR", project.ProjectManager);//传入项目经理
+                    //projectTable.CurrentRow.SetValue("VERNR", 00000002);//传入项目经理
                     projectTable.CurrentRow.SetValue("PXMDH", project.ProjectCodeName);//传入项目代号
                     projectTable.CurrentRow.SetValue("PXMLX", project.ProjectType);//传入项目类型
                     projectTable.CurrentRow.SetValue("PWTBM", project.DelegateDepartment);//传入委托部门
