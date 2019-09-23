@@ -5,6 +5,7 @@ using System.Text;
 using SAP.Middleware.Connector;
 using System.Data;
 using SAPSyncdll.Models;
+using System.Configuration;
 
 namespace SAPSyncdll
 {
@@ -22,10 +23,24 @@ namespace SAPSyncdll
             {
                 if (_rfcDestination == null)
                 {
-                    _rfcDestination = RfcDestinationManager.GetDestination("S4D");
-                    //DestinationConfig destConfig = new DestinationConfig();
-                    //RfcDestinationManager.RegisterDestinationConfiguration(destConfig);
-                    //_rfcDestination = RfcDestinationManager.GetDestination("S4D");
+                    //rfc配置
+                    //RfcConfigParameters argsP = new RfcConfigParameters();
+                    //argsP.Add(RfcConfigParameters.Name, ConfigurationManager.AppSettings["Name"].ToString());
+                    //argsP.Add(RfcConfigParameters.AppServerHost, ConfigurationManager.AppSettings["AppServerHost"].ToString());
+                    //argsP.Add(RfcConfigParameters.SystemNumber, ConfigurationManager.AppSettings["SystemNumber"].ToString()); 
+                    //argsP.Add(RfcConfigParameters.User, ConfigurationManager.AppSettings["User"].ToString());
+                    //argsP.Add(RfcConfigParameters.Password, ConfigurationManager.AppSettings["Password"].ToString());
+                    //argsP.Add(RfcConfigParameters.Client, ConfigurationManager.AppSettings["Client"].ToString());
+                    //argsP.Add(RfcConfigParameters.Language, ConfigurationManager.AppSettings["Language"].ToString());
+                    //argsP.Add(RfcConfigParameters.PoolSize, ConfigurationManager.AppSettings["PoolSize"].ToString());
+                    ////argsP.Add(RfcConfigParameters.LogonGroup, ConfigurationManager.AppSettings["GROUP"].ToString());
+                    //argsP.Add(RfcConfigParameters.MaxPoolSize, ConfigurationManager.AppSettings["MaxPoolSize"].ToString());
+                    //argsP.Add(RfcConfigParameters.IdleTimeout, ConfigurationManager.AppSettings["IdleTimeout"].ToString());
+
+                    //_rfcDestination = RfcDestinationManager.GetDestination(argsP);
+                   // 直接读取app.config中的节点中的数据
+                    _rfcDestination = RfcDestinationManager.GetDestination(ConfigurationManager.AppSettings["Name"].ToString());
+
                 }
             }
             catch (Exception ex)
