@@ -17,7 +17,7 @@ namespace SAPSyncdll
         public string ProjectTypeID { get; set; }//项目类型对应的编码
         public string ProjectType { get; set; }//项目类型
        //  public string ProjectManager { get; set; }//项目经理
-        public int ProjectManager { get; set; }//项目经理
+        public string ProjectManager { get; set; }//项目经理
         public string ProjectCodeName { get; set; }//项目代号
 
         public string DelegateDepartment { get; set; }//委托部门
@@ -76,8 +76,8 @@ namespace SAPSyncdll
                 };
 
                 //项目经理 need improve it..
-                // ProjectManager = Convert.ToInt32( (from c in login where c.PersonID == loginID select c.Login1).SingleOrDefault());
-                ProjectManager = 00000002;
+                 ProjectManager =  (from c in login where c.PersonID == loginID select c.Login1).SingleOrDefault().ToString();
+                //ProjectManager = 00000002;
                 //项目代号
                 ProjectCodeName = subproject.Title;
 
