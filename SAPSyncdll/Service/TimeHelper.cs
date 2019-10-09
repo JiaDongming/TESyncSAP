@@ -28,11 +28,16 @@ namespace SAPSyncdll
             Dictionary<string, int> InteralDevProject = new Dictionary<string, int>();
 
             //写死特殊需要处理的部门项目
-            InteralDevProject.Add("通用产品事业部部门项目", 21493);//。。。继续写死其他开发部门项目
+            InteralDevProject.Add("通用产品事业部部门公共项目", 24038);//。。。继续写死其他开发部门项目
+            InteralDevProject.Add("数字家庭事业部部门公共项目", 24045);//
+            InteralDevProject.Add("研究院部门公共项目", 24052);
+            InteralDevProject.Add("3D传感技术研发中心部门公共项目", 24059);
+            InteralDevProject.Add("芯片部部门公共项目", 24066);
+            InteralDevProject.Add("新拓三维部门公共项目", 24073);
 
             //GetCostByOwner(wbsInfo);//调用获取工时方法，实现补全wbs信息
             //GetDevTimeTaskCostByOwner(wbsInfo);//获取devtime表单中已审核过任务的工时
-       
+
             if (InteralDevProject.ContainsValue(wbsInfo.DevSpaceID))
             {
                 GetBuMenTaskCostByOwner(wbsInfo);
