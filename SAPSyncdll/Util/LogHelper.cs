@@ -24,6 +24,7 @@ namespace SAPSyncdll
             if (log != null)
             {
                 log.Info(message);
+
             }
             return;
             using (FileStream stream = new FileStream(filePath, FileMode.Append))
