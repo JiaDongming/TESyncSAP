@@ -160,6 +160,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="SAPdll\sapnco.dll" />
+    <Content Include="SAPdll\sapnco_utils.dll" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Model1.edmx.diagram">
